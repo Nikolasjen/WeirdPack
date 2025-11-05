@@ -127,5 +127,3 @@ Dette projekt er licenseret under **GNU General Public License v3.0**. Se LICENS
 
 * **Minecraft Wiki - Sounds**: [Minecraft Sound List](https://minecraft.fandom.com/wiki/Sound_list)
 * **Minecraft ResourcePack guide**: [Official Minecraft Wiki - Resource Packs](https://minecraft.gamepedia.com/Resource_pack)
-
----
