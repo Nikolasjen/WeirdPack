@@ -129,5 +129,3 @@ Dette projekt er licenseret under **GNU General Public License v3.0**. Se LICENS
 * **Minecraft ResourcePack guide**: [Official Minecraft Wiki - Resource Packs](https://minecraft.gamepedia.com/Resource_pack)
 
 ---
-
-Med denne README vil en nybegynder nu have alle de nødvendige oplysninger for at komme i gang med at tilføje eller ændre lyde i Minecraft, arbejde med Git, og forstå, hvordan `sounds.json` fungerer.
