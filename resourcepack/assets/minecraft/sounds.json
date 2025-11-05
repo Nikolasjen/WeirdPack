@@ -1,0 +1,27 @@
+{
+    "entity.creeper.primed": {
+        "category": "hostile",
+        "replace": "true",
+        "sounds": [
+            "custom/creeper_fuse"
+        ],
+        "subtitle": "subtitles.entity.creeper.primed"
+    },
+
+    "entity.player.death": {
+      "replace": "true",
+      "category":"player",
+      "sounds": [
+        "custom/player_death"
+      ],
+      "subtitle": "subtitles.entity.player.death"
+    },
+
+    "block.wood.hit": {
+      "replace": "true",
+      "category":"wood",
+      "sounds": [
+        "custom/klonk"
+      ]
+    }
+  }
