@@ -1,9 +1,3 @@
-For at gøre din README mere tilgængelig for nybegyndere, som måske ikke er vant til at arbejde med Git eller Minecraft ResourcePacks, kan vi udvide den med klare trin og forklaringer. Jeg vil også inkludere en simpel guide til at arbejde med lyde i Minecraft, hvordan man laver/ændrer en ResourcePack, samt en oversigt over strukturen i `sounds.json` og nogle referencer til base game-lyde.
-
-Her er den opdaterede version af din README:
-
----
-
 # WeirdPack
 
 WeirdPack er et Minecraft ResourcePack, hvor vi erstatter de standardlyde i spillet med underlige og sjove lyde. Her kan du finde og tilføje dine egne lyde til spillet, ændre eksisterende lyde og hjælpe med at udvikle denne pakke.
