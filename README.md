@@ -42,16 +42,25 @@ git checkout -b min-branch
 
 Lav dine ændringer i den nye branch.
 
-### 3. Tilføj eller ændr lyde
+### 3. Tilføj lyde
 
-For at ændre en lyd eller tilføje en ny lyd:
+Minecraft har per standard nogle lyde til alt i spillet. Disse lyde har nogle specifikke navne og placeringer i ResourcePack-strukturen, som du skal følge for at overskrive Minecrafts standardlyde (dette kan også gøres programmerisk - se afsnit 3.1).
 
-* Find lydfilerne i mappen `assets/minecraft/sounds/` (lydene skal være i `.ogg`-format).
-* Tilføj dine egne lydfiler i mappen, og sørg for, at de har unikke navne.
+*For at holde denne resource pack så lille som muligt, samt for ikke at overskrive lyde unødigt, indeholder denne pakke kun et udvalg af lyde. Dette betyder, at du skal tilføje eller ændre lyde manuelt, samt de mapper hver lyd skal ligge i per Minecrafts struktur - See også '[All Vanilla Sounds](https://www.curseforge.com/minecraft/texture-packs/all-vanilla-sounds)' for en liste over alle vanillelyde fra eks. 1.18.2.*
 
-### 4. Opdater `sounds.json`
+For at ændre en lyd i Minecraft:
 
-Når du tilføjer eller ændrer lyde, skal du opdatere filen `sounds.json` i mappen `assets/minecraft/` for at sikre, at Minecraft genkender og bruger de nye lyde.
+* Naviger til mappen `resourcepack/assets/minecraft/sounds/` og find den lydfil du vil ændre -- hvis du ikke kan finde en allerede eksisterende lydfil, kan du blot oprette en ny, i en undermappe der passer til den lyd du forsøger at redigere.
+* Sørg for at lydfilen er i `.ogg`-format og har et unikt navn -- følger du Minecrafts konventioner, vil det gøre det lettere at finde og identificere lydene senere.
+
+
+### 3.1. Opdater `sounds.json`
+
+Der er flere muligheder for tilpasning af lyde i Minecraft. Den ene er beskrevet ovenfor, hvor du eks. erstatter en lydfil direkte. Den anden metode er at opdatere `sounds.json`-filen for at definere nye lyde eller ændre eksisterende lyde. Det er dog vigtigt at bemærke, at hvis du kun tilføjer nye lyde uden at opdatere `sounds.json`, vil Minecraft ikke vide, hvordan eller hvornår disse lyde skal afspilles.
+
+Du kan her tage udgangspunkt i den eksisterende `sounds.json`-fil i mappen `assets/minecraft/` og tilføje dine egne lyddefinitioner, og du kan læse mere om dette [her](https://minecraft.wiki/w/Sounds.json).
+
+<!-- Tilføjer du en ny lyd, skal du opdatere filen `sounds.json` i mappen `assets/minecraft/` for at sikre, at Minecraft genkender og bruger de nye lyde. -->
 
 ## Guide til `sounds.json`
 
@@ -61,53 +70,29 @@ I Minecraft ResourcePacks bruges filen `sounds.json` til at definere hvilke lyde
 
 ```json
 {
-  "sounds": {
-    "random.click": {
-      "category": "random",
-      "sounds": [
-        {
-          "name": "sounds/click_weird",
-          "stream": false
-        }
-      ]
+  "entity.creeper.primed": {
+        "category": "hostile",
+        "replace": "true",
+        "sounds": [
+            "custom/creeper_fuse"
+        ],
+        "subtitle": "subtitles.entity.creeper.primed"
     },
-    "entity.zombie.ambient": {
-      "category": "ambient",
-      "sounds": [
-        {
-          "name": "sounds/zombie_ambient_weird",
-          "stream": false
-        }
-      ]
-    }
-  }
 }
 ```
 
 I eksemplet ovenfor:
+* `entity.creeper.primed` er navnet på lyd-`eventet`, som bruges, når en creeper er ved at eksplodere.
+* `category` angiver lydkategorien (f.eks. `hostile`, `ambient`, `block`, etc.).
+* `replace` angiver, om denne lyd skal erstatte den eksisterende lyd i spillet.
+* `sounds` er en liste over lydfiler, der skal afspilles for dette event (uden filendelse).
+* `subtitle` angiver den tekst, der vises som undertekst, når lyden afspilles.
 
-* `random.click` er et eksisterende spil-event (som når en spiller klikker på noget).
-* Lyden af et klik er ændret til `sounds/click_weird`.
-* `stream` kan være enten `true` eller `false`. Hvis `true`, streames lyden (godt til store lydfiler), ellers afspilles den som en normal fil.
-
-### Hvordan man opretter en ny lyd-`event`
+<!-- ### Hvordan man opretter en ny lyd-`event`
 
 1. Opret et unikt lydnavn i `sounds.json` (f.eks. `"my_custom.sound"`)
-2. Tilføj en lydfil med samme navn som eventet (f.eks. `my_custom/sound.ogg`).
-3. Hvis du vil ændre eksisterende spillyde, skal du finde det relevante eventnavn i den officielle Minecraft-dokumentation eller i den eksisterende `sounds.json`-fil og ændre filstien.
-
-### Hvordan virker event-navne i Minecraft?
-
-Minecraft har en masse foruddefinerede lyd-`events`, som du kan finde i filen `sounds.json` i spillets standardpakke. Det er disse `event`-navne, der bestemmer, hvilken lyd der afspilles ved bestemte handlinger (f.eks. når du går, når en mob angriber, etc.).
-
-**Eksempler på standardlyde i Minecraft:**
-
-* `ambient.weather.rain`
-* `block.wood.break`
-* `entity.zombie.ambient`
-* `random.click`
-
-Du kan finde flere standardlyde i Minecrafts `sounds.json` fil, eller ved at kigge på Minecraft Wikiens lydreferencer [her](https://minecraft.fandom.com/wiki/Sound_list).
+2. Tilføj en lydfil med samme navn som eventet (f.eks. `custom/my_sound`).
+3. Hvis du vil ændre eksisterende spillyde, skal du finde det relevante eventnavn i den officielle Minecraft-dokumentation eller i den eksisterende `sounds.json`-fil og ændre filstien. -->
 
 ## Bidrag
 
@@ -125,5 +110,4 @@ Dette projekt er licenseret under **GNU General Public License v3.0**. Se LICENS
 
 ### Yderligere Ressourcer:
 
-* **Minecraft Wiki - Sounds**: [Minecraft Sound List](https://minecraft.fandom.com/wiki/Sound_list)
 * **Minecraft ResourcePack guide**: [Official Minecraft Wiki - Resource Packs](https://minecraft.gamepedia.com/Resource_pack)
