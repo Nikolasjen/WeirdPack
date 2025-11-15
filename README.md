@@ -111,3 +111,4 @@ Dette projekt er licenseret under **GNU General Public License v3.0**. Se LICENS
 ### Yderligere Ressourcer:
 
 * **Minecraft ResourcePack guide**: [Official Minecraft Wiki - Resource Packs](https://minecraft.gamepedia.com/Resource_pack)
+* **Creating a Resource Pack**: [Minecraft Wiki - Creating a Resource Pack](https://minecraft.wiki/w/Tutorial:Creating_a_resource_pack)
