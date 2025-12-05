@@ -1,6 +1,7 @@
 {
     "pack": {
-        "description": "Weird sounds",
-        "pack_format": 69
+        "min_format": [65, 0],
+        "max_format": [69, 1],
+        "description": "Weird sounds"
     }
 }
