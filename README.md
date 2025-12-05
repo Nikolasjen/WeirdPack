@@ -1,6 +1,6 @@
 # WeirdPack
 
-WeirdPack er et Minecraft ResourcePack, hvor vi erstatter de standardlyde i spillet med underlige og sjove lyde. Her kan du finde og tilføje dine egne lyde til spillet, ændre eksisterende lyde og hjælpe med at udvikle denne pakke.
+WeirdPack er et Minecraft ResourcePack, hvor vi erstatter de standardlyde i spillet med underlige og sjove lyde. Her kan du finde og tilføje dine egne lyde til spillet, ændre eksisterende lyde og hjælpe med at udvikle denne pakke. **Nyt**: Pakken inkluderer nu også sprogfiler til at ændre eks. navne på genstande og blokke i spillet!
 
 ## Installation
 
