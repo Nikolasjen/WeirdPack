@@ -1,0 +1,69 @@
+{
+  "item.minecraft.potion.effect.poison": "Alcohol",
+  "item.minecraft.splash_potion.effect.poison": "Alcohol (Splash)",
+  "item.minecraft.lingering_potion.effect.poison": "Alcohol (Lingering)",
+
+  "item.minecraft.potion.effect.regeneration": "Biological Reboot Juice",
+  "item.minecraft.splash_potion.effect.regeneration": "Biological Reboot Juice (Splash)",
+  "item.minecraft.lingering_potion.effect.regeneration": "Biological Reboot Juice (Lingering)",
+
+  "item.minecraft.potion.effect.healing": "Instant Happy Juice",
+  "item.minecraft.splash_potion.effect.healing": "Instant Happy Juice (Splash)",
+  "item.minecraft.lingering_potion.effect.healing": "Instant Happy Juice (Lingering)",
+
+  "item.minecraft.potion.effect.fire_resistance": "Anti-Burn Syrup",
+  "item.minecraft.splash_potion.effect.fire_resistance": "Anti-Burn Syrup (Splash)",
+  "item.minecraft.lingering_potion.effect.fire_resistance": "Anti-Burn Syrup (Lingering)",
+
+  "item.minecraft.potion.effect.swiftness": "Zoom Juice",
+  "item.minecraft.splash_potion.effect.swiftness": "Zoom Juice (Splash)",
+  "item.minecraft.lingering_potion.effect.swiftness": "Zoom Juice (Lingering)",
+
+  "item.minecraft.potion.effect.slowness": "Grandma Mode",
+  "item.minecraft.splash_potion.effect.slowness": "Grandma Mode (Splash)",
+  "item.minecraft.lingering_potion.effect.slowness": "Grandma Mode (Lingering)",
+
+  "item.minecraft.potion.effect.harming": "Ouch Sauce",
+  "item.minecraft.splash_potion.effect.harming": "Ouch Sauce (Splash)",
+  "item.minecraft.lingering_potion.effect.harming": "Ouch Sauce (Lingering)",
+
+  "item.minecraft.potion.effect.water_breathing": "Gills in a Bottle",
+  "item.minecraft.splash_potion.effect.water_breathing": "Gills in a Bottle (Splash)",
+  "item.minecraft.lingering_potion.effect.water_breathing": "Gills in a Bottle (Lingering)",
+
+  "item.minecraft.potion.effect.invisibility": "Social Disappearance Serum",
+  "item.minecraft.splash_potion.effect.invisibility": "Social Disappearance Serum (Splash)",
+  "item.minecraft.lingering_potion.effect.invisibility": "Social Disappearance Serum (Lingering)",
+
+  "item.minecraft.potion.effect.night_vision": "Anti-Darkness Beverage",
+  "item.minecraft.splash_potion.effect.night_vision": "Anti-Darkness Beverage (Splash)",
+  "item.minecraft.lingering_potion.effect.night_vision": "Anti-Darkness Beverage (Lingering)",
+
+  "item.minecraft.potion.effect.weakness": "Wet Noodle Extract",
+  "item.minecraft.splash_potion.effect.weakness": "Wet Noodle Extract (Splash)",
+  "item.minecraft.lingering_potion.effect.weakness": "Wet Noodle Extract (Lingering)",
+
+  "item.minecraft.potion.effect.strength": "Gym Juice",
+  "item.minecraft.splash_potion.effect.strength": "Gym Juice (Splash)",
+  "item.minecraft.lingering_potion.effect.strength": "Gym Juice (Lingering)",
+
+  "item.minecraft.potion.effect.leaping": "Frog Energy",
+  "item.minecraft.splash_potion.effect.leaping": "Frog Energy (Splash)",
+  "item.minecraft.lingering_potion.effect.leaping": "Frog Energy (Lingering)",
+
+  "item.minecraft.potion.effect.water": "Hydration but Suspicious",
+  "item.minecraft.splash_potion.effect.water": "Hydration but Suspicious (Splash)",
+  "item.minecraft.lingering_potion.effect.water": "Hydration but Suspicious (Lingering)",
+
+  "item.minecraft.potion.effect.mundane": "Basic Liquid",
+  "item.minecraft.splash_potion.effect.mundane": "Basic Liquid (Splash)",
+  "item.minecraft.lingering_potion.effect.mundane": "Basic Liquid (Lingering)",
+
+  "item.minecraft.potion.effect.thick": "Chunky Drink",
+  "item.minecraft.splash_potion.effect.thick": "Chunky Drink (Splash)",
+  "item.minecraft.lingering_potion.effect.thick": "Chunky Drink (Lingering)",
+
+  "item.minecraft.potion.effect.awkward": "Socially Awkward Liquid",
+  "item.minecraft.splash_potion.effect.awkward": "Socially Awkward Liquid (Splash)",
+  "item.minecraft.lingering_potion.effect.awkward": "Socially Awkward Liquid (Lingering)"
+}
