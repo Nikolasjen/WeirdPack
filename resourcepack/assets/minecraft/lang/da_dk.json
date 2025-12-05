@@ -1,0 +1,69 @@
+{
+  "item.minecraft.potion.effect.poison": "Alkohol",
+  "item.minecraft.splash_potion.effect.poison": "Sprøjtende Alkohol",
+  "item.minecraft.lingering_potion.effect.poison": "Hængende Alkohol",
+
+  "item.minecraft.potion.effect.regeneration": "Biologisk Genstartssaft",
+  "item.minecraft.splash_potion.effect.regeneration": "Sprøjtende Biologisk Genstartssaft",
+  "item.minecraft.lingering_potion.effect.regeneration": "Hængende Biologisk Genstartssaft",
+
+  "item.minecraft.potion.effect.healing": "Øjeblikkelig Gladsaft",
+  "item.minecraft.splash_potion.effect.healing": "Sprøjtende Øjeblikkelig Gladsaft",
+  "item.minecraft.lingering_potion.effect.healing": "Hængende Øjeblikkelig Gladsaft",
+
+  "item.minecraft.potion.effect.fire_resistance": "Anti-Grill Sirup",
+  "item.minecraft.splash_potion.effect.fire_resistance": "Sprøjtende Anti-Grill Sirup",
+  "item.minecraft.lingering_potion.effect.fire_resistance": "Hængende Anti-Grill Sirup",
+
+  "item.minecraft.potion.effect.swiftness": "Zoom-Juice",
+  "item.minecraft.splash_potion.effect.swiftness": "Sprøjtende Zoom-Juice",
+  "item.minecraft.lingering_potion.effect.swiftness": "Hængende Zoom-Juice",
+
+  "item.minecraft.potion.effect.slowness": "Bedstemor-Tilstand",
+  "item.minecraft.splash_potion.effect.slowness": "Sprøjtende Bedstemor-Tilstand",
+  "item.minecraft.lingering_potion.effect.slowness": "Hængende Bedstemor-Tilstand",
+
+  "item.minecraft.potion.effect.harming": "Av-Sauce",
+  "item.minecraft.splash_potion.effect.harming": "Sprøjtende Av-Sauce",
+  "item.minecraft.lingering_potion.effect.harming": "Hængende Av-Sauce",
+
+  "item.minecraft.potion.effect.water_breathing": "Gæller på Flaske",
+  "item.minecraft.splash_potion.effect.water_breathing": "Sprøjtende Gæller på Flaske",
+  "item.minecraft.lingering_potion.effect.water_breathing": "Hængende Gæller på Flaske",
+
+  "item.minecraft.potion.effect.invisibility": "Forsvindingsvæske",
+  "item.minecraft.splash_potion.effect.invisibility": "Sprøjtende Forsvindingsvæske",
+  "item.minecraft.lingering_potion.effect.invisibility": "Hængende Forsvindingsvæske",
+
+  "item.minecraft.potion.effect.night_vision": "Anti-Mørke Drik",
+  "item.minecraft.splash_potion.effect.night_vision": "Sprøjtende Anti-Mørke Drik",
+  "item.minecraft.lingering_potion.effect.night_vision": "Hængende Anti-Mørke Drik",
+
+  "item.minecraft.potion.effect.weakness": "Våd Nuddel-Ekstrakt",
+  "item.minecraft.splash_potion.effect.weakness": "Sprøjtende Våd Nuddel-Ekstrakt",
+  "item.minecraft.lingering_potion.effect.weakness": "Hængende Våd Nuddel-Ekstrakt",
+
+  "item.minecraft.potion.effect.strength": "Fitness-Juice",
+  "item.minecraft.splash_potion.effect.strength": "Sprøjtende Fitness-Juice",
+  "item.minecraft.lingering_potion.effect.strength": "Hængende Fitness-Juice",
+
+  "item.minecraft.potion.effect.leaping": "Frø-Energi",
+  "item.minecraft.splash_potion.effect.leaping": "Sprøjtende Frø-Energi",
+  "item.minecraft.lingering_potion.effect.leaping": "Hængende Frø-Energi",
+
+  "item.minecraft.potion.effect.water": "Mistænkelig Vand",
+  "item.minecraft.splash_potion.effect.water": "Sprøjtende Mistænkelig Vand",
+  "item.minecraft.lingering_potion.effect.water": "Hængende Mistænkelig Vand",
+
+  "item.minecraft.potion.effect.mundane": "Standardvæske",
+  "item.minecraft.splash_potion.effect.mundane": "Sprøjtende Standardvæske",
+  "item.minecraft.lingering_potion.effect.mundane": "Hængende Standardvæske",
+
+  "item.minecraft.potion.effect.thick": "Tyk Drik",
+  "item.minecraft.splash_potion.effect.thick": "Sprøjtende Tyk Drik",
+  "item.minecraft.lingering_potion.effect.thick": "Hængende Tyk Drik",
+
+  "item.minecraft.potion.effect.awkward": "Akavet Væske",
+  "item.minecraft.splash_potion.effect.awkward": "Sprøjtende Akavet Væske",
+  "item.minecraft.lingering_potion.effect.awkward": "Hængende Akavet Væske"
+}
